@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <script>
+function botao1(){
+    let texto = document.getElementById("input1").value;
+    alert(texto)
+    }
+    </script>
+</head>
+<body>
+    <h1>Hello Js</h1>
+    <p id="p1">Ola mundo</p>
+    <input id ="input1"></input>
+    <button type="button" onclick=" botao1()">Clique em mim</button>
+</body>
+</html>
